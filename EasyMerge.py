@@ -271,12 +271,12 @@ class ModernFileManager:
         footer_content.pack(fill='x')
         
         credit_label = tk.Label(footer_content, 
-                               text="Created by ScriptMalayali",
+                               text="Created by Adil C",
                                font=('Segoe UI', 10),
                                bg='#1a1a1a', fg='#3b82f6',
                                cursor='hand2')
         credit_label.pack(side='left')
-        credit_label.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/scriptmalayali"))
+        credit_label.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/adilc0070"))
         
         version_label = tk.Label(footer_content, 
                                 text="v2.0",
